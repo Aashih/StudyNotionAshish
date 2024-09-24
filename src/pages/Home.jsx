@@ -177,13 +177,13 @@ const Home = () => {
       <div className="w-11/12 mx-auto max-w-maxContent flex-col items-center justify-between gap-8 bg-richblue-900 text-white">
 
       <InstuctorSection/>
-
-      <h1 className="text-center text-4xl font-semibold mt-8">
-          Reviews from other learners
-        </h1>
-      {/* Review slider here  */}
-      <ReviewSlider/>
       </div>
+      {/* Review slider here  */}
+      <div className=' mb-16 mt-3'>
+        <h2 className='text-center text-2xl md:text-4xl font-semibold mt-8 text-richblack-5 mb-5'>Reviews from other learners</h2>
+        <ReviewSlider />
+      </div>
+      
 
       {/* section 4 (Fotter) */}
       <Footer/>
